@@ -1,3 +1,47 @@
-.app{
-  width: 100%;
+@media (min-width: 951px) {
+  .appWrap{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+  }
+  .foldersBlock{
+    width: 250px;
+  }
+  .filesBlock{
+    width: calc(100% - 300px);
+  }
+}
+
+@media (max-width: 950px) {
+  .appWrap{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+  }
+  .foldersBlock{
+    width: 100%;
+  }
+  .filesBlock{
+    width: calc(100% - 50px);
+  }
+}
+
+.selectTitle{
+  font-size: 22px;
+  padding: 10px;
+}
+.select{
+  width: calc(100% - 40px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
+select{
+  width: calc(100% - 42px);
+  padding: 20px;
+  font-size: 20px;
 }

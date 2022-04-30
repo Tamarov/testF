@@ -1,0 +1,28 @@
+@media (min-width: 951px) {
+    .wrap{
+        width: 250px;
+    }
+    }
+
+@media (max-width: 950px) {
+    .wrap{
+        width: 100%;
+    }
+    
+}
+
+.folderLine{
+    width: calc(100% - 20px);
+    background-color: darkgray;
+    font-size: 18px;
+    line-height: 24px;
+    padding-top: 10px;
+    padding-bottom: 14px;
+    padding-left: 20px;
+    margin-bottom: 8px;
+}
+
+.folderLine:hover{
+    cursor: pointer;
+}
+

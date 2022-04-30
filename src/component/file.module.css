@@ -1,0 +1,363 @@
+@media (min-width: 951px) {
+    .wrap{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: calc(100% - 10px);
+        border-bottom: 1px solid darkgray;
+        font-size: 14px;
+        line-height: 18px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        padding-left: 10px;
+        margin-bottom: 8px;
+        cursor: pointer;
+    }
+    .name{
+        width: 250px;
+    }
+
+    .size{
+        width: 150px;
+    }
+
+    .date{
+        width: 150px;
+    }
+
+    .icoPng{
+        width: 30px;
+        height: 40px;
+        background-image: url('./icon/png.png');
+        background-repeat     : no-repeat;
+        background-size       : contain;
+        background-position-x : 50%;
+        background-position-y : 50%;
+    }
+
+    .icoDoc{
+        width: 30px;
+        height: 40px;
+        background-image: url('./icon/doc.png');
+        background-repeat     : no-repeat;
+        background-size       : contain;
+        background-position-x : 50%;
+        background-position-y : 50%;
+    }
+
+    .icoHz{
+        width: 30px;
+        height: 40px;
+        background-image: url('./icon/hz.png');
+        background-repeat     : no-repeat;
+        background-size       : contain;
+        background-position-x : 50%;
+        background-position-y : 50%;
+    }
+
+    .icoJpg{
+        width: 30px;
+        height: 40px;
+        background-image: url('./icon/jpeg.png');
+        background-repeat     : no-repeat;
+        background-size       : contain;
+        background-position-x : 50%;
+        background-position-y : 50%;
+    }
+
+    .icoXls{
+        width: 30px;
+        height: 40px;
+        background-image: url('./icon/xls.png');
+        background-repeat     : no-repeat;
+        background-size       : contain;
+        background-position-x : 50%;
+        background-position-y : 50%;
+    }
+
+    .icoPdf{
+        width: 30px;
+        height: 40px;
+        background-image: url('./icon/pdf.png');
+        background-repeat     : no-repeat;
+        background-size       : contain;
+        background-position-x : 50%;
+        background-position-y : 50%;
+    }
+}
+
+@media (min-width: 561px) and (max-width: 950px) {
+    .wrap{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: calc(100% - 10px);
+        border-bottom: 1px solid darkgray;
+        font-size: 14px;
+        line-height: 18px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        padding-left: 10px;
+        margin-bottom: 8px;
+        cursor: pointer;
+    }
+    .name{
+        width: 250px;
+    }
+
+    .size{
+        width: 150px;
+    }
+
+    .date{
+        width: 250px;
+    }
+
+    .ico{
+        margin-right: 20px;
+    }
+
+    .icoPng{
+        width: 30px;
+        height: 40px;
+        background-image: url('./icon/png.png');
+        background-repeat     : no-repeat;
+        background-size       : contain;
+        background-position-x : 50%;
+        background-position-y : 50%;
+    }
+
+    .icoDoc{
+        width: 30px;
+        height: 40px;
+        background-image: url('./icon/doc.png');
+        background-repeat     : no-repeat;
+        background-size       : contain;
+        background-position-x : 50%;
+        background-position-y : 50%;
+    }
+
+    .icoHz{
+        width: 30px;
+        height: 40px;
+        background-image: url('./icon/hz.png');
+        background-repeat     : no-repeat;
+        background-size       : contain;
+        background-position-x : 50%;
+        background-position-y : 50%;
+    }
+
+    .icoJpg{
+        width: 30px;
+        height: 40px;
+        background-image: url('./icon/jpeg.png');
+        background-repeat     : no-repeat;
+        background-size       : contain;
+        background-position-x : 50%;
+        background-position-y : 50%;
+    }
+
+    .icoXls{
+        width: 30px;
+        height: 40px;
+        background-image: url('./icon/xls.png');
+        background-repeat     : no-repeat;
+        background-size       : contain;
+        background-position-x : 50%;
+        background-position-y : 50%;
+    }
+
+    .icoPdf{
+        width: 30px;
+        height: 40px;
+        background-image: url('./icon/pdf.png');
+        background-repeat     : no-repeat;
+        background-size       : contain;
+        background-position-x : 50%;
+        background-position-y : 50%;
+    }
+}
+
+@media (max-width: 560px) {
+    .wrap{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: calc(100% - 10px);
+        border-bottom: 1px solid darkgray;
+        font-size: 14px;
+        line-height: 18px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        padding-left: 10px;
+        margin-bottom: 8px;
+        cursor: pointer;
+    }
+    .name{
+        width: 250px;
+    }
+
+    .size{
+        width: 150px;
+    }
+
+    .date{
+        width: 250px;
+    }
+
+    .ico{
+        margin-right: 20px;
+    }
+
+    .icoPng{
+        width: 60px;
+        height: 80px;
+        background-image: url('./icon/png.png');
+        background-repeat     : no-repeat;
+        background-size       : contain;
+        background-position-x : 50%;
+        background-position-y : 50%;
+    }
+
+    .icoDoc{
+        width: 60px;
+        height: 80px;
+        background-image: url('./icon/doc.png');
+        background-repeat     : no-repeat;
+        background-size       : contain;
+        background-position-x : 50%;
+        background-position-y : 50%;
+    }
+
+    .icoHz{
+        width: 60px;
+        height: 80px;
+        background-image: url('./icon/hz.png');
+        background-repeat     : no-repeat;
+        background-size       : contain;
+        background-position-x : 50%;
+        background-position-y : 50%;
+    }
+
+    .icoJpg{
+        width: 60px;
+        height: 80px;
+        background-image: url('./icon/jpeg.png');
+        background-repeat     : no-repeat;
+        background-size       : contain;
+        background-position-x : 50%;
+        background-position-y : 50%;
+    }
+
+    .icoXls{
+        width: 60px;
+        height: 80px;
+        background-image: url('./icon/xls.png');
+        background-repeat     : no-repeat;
+        background-size       : contain;
+        background-position-x : 50%;
+        background-position-y : 50%;
+    }
+
+    .icoPdf{
+        width: 60px;
+        height: 80px;
+        background-image: url('./icon/pdf.png');
+        background-repeat     : no-repeat;
+        background-size       : contain;
+        background-position-x : 50%;
+        background-position-y : 50%;
+    }
+}
+
+@media (max-width: 499px) {
+    .wrap{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: calc(100% - 10px);
+        border-bottom: 1px solid darkgray;
+        font-size: 14px;
+        line-height: 18px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        padding-left: 10px;
+        margin-bottom: 8px;
+        cursor: pointer;
+    }
+    .name{
+        width: 250px;
+    }
+
+    .size{
+        width: 150px;
+    }
+
+    .date{
+        width: 250px;
+    }
+
+    .ico{
+        margin-right: 20px;
+    }
+
+    .icoPng{
+        width: 120px;
+        height: 160px;
+        background-image: url('./icon/png.png');
+        background-repeat     : no-repeat;
+        background-size       : contain;
+        background-position-x : 50%;
+        background-position-y : 50%;
+    }
+
+    .icoDoc{
+        width: 120px;
+        height: 160px;
+        background-image: url('./icon/doc.png');
+        background-repeat     : no-repeat;
+        background-size       : contain;
+        background-position-x : 50%;
+        background-position-y : 50%;
+    }
+
+    .icoHz{
+        width: 120px;
+        height: 160px;
+        background-image: url('./icon/hz.png');
+        background-repeat     : no-repeat;
+        background-size       : contain;
+        background-position-x : 50%;
+        background-position-y : 50%;
+    }
+
+    .icoJpg{
+        width: 120px;
+        height: 160px;
+        background-image: url('./icon/jpeg.png');
+        background-repeat     : no-repeat;
+        background-size       : contain;
+        background-position-x : 50%;
+        background-position-y : 50%;
+    }
+
+    .icoXls{
+        width: 120px;
+        height: 160px;
+        background-image: url('./icon/xls.png');
+        background-repeat     : no-repeat;
+        background-size       : contain;
+        background-position-x : 50%;
+        background-position-y : 50%;
+    }
+
+    .icoPdf{
+        width: 120px;
+        height: 160px;
+        background-image: url('./icon/pdf.png');
+        background-repeat     : no-repeat;
+        background-size       : contain;
+        background-position-x : 50%;
+        background-position-y : 50%;
+    }
+}

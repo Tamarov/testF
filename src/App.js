@@ -1,14 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
 import { useEffect, useState } from 'react';
 
 import Folders from './component/folders'
+import Files from './component/files'
 
 function App() {
   const [dataFiles, setDataFiles] = useState(null)
+  const [folder, setFolder] = useState(null)
+  const [sortFile, setSortFile] = useState('')
 
   useEffect(() => {
-    //document.cookie = "user=John"
+    let tmp = document.cookie.split('=')
+    setSortFile(String(tmp[1]))
+
     getFiles()
   }, [])
 
@@ -31,7 +35,14 @@ function App() {
       let tmp = []
       let count = 0
       for (let key in dataFiles) {
-        let test = <Folders name={key} folders={dataFiles[key]} count={count} />
+        let test = <Folders
+          key={key}
+          name={key}
+          folders={dataFiles[key]}
+          count={count}
+          folder={folder}
+          setFolder={setFolder}
+        />
         tmp[count] = (test)
         count++
       }
@@ -39,9 +50,47 @@ function App() {
     }
   }
 
+  function vievDataFiles(){
+    if(dataFiles !== null){
+      let tmp = []
+      let count = 0
+      for (let key in dataFiles) {
+        if(key === folder){
+          let test = <Files
+            key={count}
+            folders={dataFiles[key]}
+            sortFile={sortFile}
+          />
+          tmp[count] = (test)
+        }
+      }
+      return tmp
+    }
+  }
+
   return (
-    <div className="App">
-      {vievData()}
+    <div className="app">
+      <div className='select'>
+        <div className='selectTitle'>Сортировать по:</div>
+        <select
+          onChange={
+            (e) => {
+              document.cookie = `sortFile=${e.target.value}`
+              setSortFile(e.target.value)
+            }
+          }
+          value={sortFile}
+        >
+          <option value='0'>Выбрать</option>
+          <option value='name'>файлов по имени</option>
+          <option value='size'>размеру</option>
+          <option value='mtime'>дате создания</option>
+        </select>
+      </div>
+      <div className='appWrap'>
+        <div className='foldersBlock'>{vievData()}</div>
+        <div className='filesBlock'>{vievDataFiles()}</div>
+      </div>
     </div>
   );
 }
